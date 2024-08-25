@@ -117,7 +117,7 @@ with tab1:
 
     with col10:
         st.header(":red[Weekly Sales]")
-        model=load_model(r'D:/python_final/ann_model1.h5')
+        model=load_model(r'ann_model1.h5')
 
         # Input data as a list
         input_data = [[store, dept, siz, temp, fuel, CPI, unemp, markdown1, markdown2, markdown3, markdown4, markdown5, duration.year, duration.month, duration.day, Type[type_], holi[holiday]]]
